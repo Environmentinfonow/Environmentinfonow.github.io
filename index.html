@@ -1,31 +1,26 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+<h4 id="stylet1">Environment Info Now</h4>
+  <title>Environment Info Now - see the latest environmental info</title>
+  <meta charset="UTF-8">
 </head>
-<body>
-  <div id="my-signin2"></div>
+  <body>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/gEk6JLJNg0U?start=10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <script>
-    function onSuccess(googleUser) {
-      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-    }
-    function onFailure(error) {
-      console.log(error);
-    }
-    function renderButton() {
-      gapi.signin2.render('my-signin2', {
-        'scope': 'profile email',
-        'width': 240,
-        'height': 50,
-        'longtitle': true,
-        'theme': 'dark',
-        'onsuccess': onSuccess,
-        'onfailure': onFailure
-      });
-    }
-  </script>
-
-  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-</body>
+    <h2>Global Warming</h2>    
+    <h3>What Is Global Warming?</h3>
+    <p>
+     <b>Global warming</b> is the long-term heating of Earth's <b>climate<b> system observed 
+      since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, 
+      which increases heat-trapping greenhouse gas levels in Earth's atmosphere.
+    </p>
+      <style>
+        body {
+          font-family: Verdana;
+        }
+        stylet1 {
+          font-family: Pacifico;
+        }
+      </style>
+  </body>
 </html>
